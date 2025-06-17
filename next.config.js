@@ -45,7 +45,11 @@ const nextConfig = {
       "static.foxnews.com",
       "www.rollingstone.com",
       "photos5.appleinsider.com",
-      "techcrunch.com"
+      "techcrunch.com",
+      "akns-images.eonline.com",
+      "www.pokemon.com",
+      "thenationaldesk.com",
+      "imageio.forbes.com"
     ],
   },
 };
