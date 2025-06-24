@@ -17,7 +17,7 @@ function NavBar({ toggleDarkMode, isDarkMode }: { toggleDarkMode: () => void; is
         backgroundColor: "var(--background)",
       }}
     >
-      {session && (
+      {/* {session && (
         <button
           onClick={() => signOut()}
           style={{
@@ -31,7 +31,22 @@ function NavBar({ toggleDarkMode, isDarkMode }: { toggleDarkMode: () => void; is
         >
           Sign Out
         </button>
-      )}
+      )} */}
+      {session && (
+            <a
+              href="/about"
+              style={{
+                backgroundColor: "#111",
+                color: "#fff",
+                padding: "0.5rem 1rem",
+                borderRadius: "4px",
+                textDecoration: "none",
+              }}
+            >
+              About Me
+            </a>
+          )}
+
       <button
         onClick={toggleDarkMode}
         style={{
